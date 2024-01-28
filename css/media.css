@@ -1,7 +1,7 @@
 /* --------------------Media-Tablet----------------------- */
 /* ------------------- Header---------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 	.container {
 		max-width: 736px;
 	}
@@ -12,8 +12,8 @@
 
 	.team-list {
 		display: flex;
-		gap: 24px;
 		flex-wrap: wrap;
+		flex-direction: row;
 	}
 
 	.team-item {
@@ -32,11 +32,21 @@
 /* --------------------Media-Desktop----------------------*/
 /* --------------------Header--------------------------- */
 
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
 	.container {
-		max-width: 1440px;
+		max-width: 1158px;
 	}
-} */
+
+	.team-list {
+		display: flex;
+		flex-direction: row;
+		gap: 24px;
+	}
+
+	.team-item {
+		width: calc((100% - 3 * 24px) / 4);
+	}
+}
 
 /* ------------------- Main-Hero---------------------------------- */
 /* --------------------Features---------------------------------- */

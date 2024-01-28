@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
-<meta name="viewport" content="width=>>, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 
 <body>
 
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="logo" href="./index.html">Web<span class="logo-dark">Studio</span></a>
@@ -39,7 +39,7 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-order-service-btn">Order Service</button>
+          <button  data-modal-open type="button" class="hero-order-service-btn">Order Service</button>
         </div>
       </section>
       <section class="features">
@@ -92,14 +92,14 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       
       <section class="team">
         <div class="container team-container">
           <h2 class="section-title-team">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img src="./images/img-jpg-1.jpg" alt="the man smiles" width="264" class="team-img" />
+              <img src="./images/img-jpg-1.jpg" alt="the man smiles" width="" class="team-img" />
               <div class="item-border">
                 <h3 class="subtitle">Mark Guerrero</h3>
                 <p class="item-text">Product Designer</p>
@@ -136,7 +136,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/img-jpg-2.jpg" alt="the man smiles" width="264" class="team-img" />
+              <img src="./images/img-jpg-2.jpg" alt="the man smiles" width="" class="team-img" />
               <div class="item-border">
                 <h3 class="subtitle">Tom Ford</h3>
                 <p class="item-text">Frontend Developer</p>
@@ -173,7 +173,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/img-jpg-3.jpg" alt="the woman smiles" width="264" class="team-img" />
+              <img src="./images/img-jpg-3.jpg" alt="the woman smiles" width="" class="team-img" />
               <div class="item-border">
                 <h3 class="subtitle">Camila Garcia</h3>
                 <p class="item-text">Marketing</p>
@@ -210,7 +210,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/img-jpg-4.jpg" alt="the man smiles" width="264" class="team-img" />
+              <img src="./images/img-jpg-4.jpg" alt="the man smiles" width="" class="team-img" />
               <div class="item-border">
                 <h3 class="subtitle">Daniel Wilson</h3>
                 <p class="item-text">UI Designer</p>
@@ -249,7 +249,7 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="portfolio">
+     <section class="portfolio">
         <div class="container portfolio-container ">
           <h2 class="section-title-portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -397,9 +397,9 @@
         </div>
       </div>
   </footer>
-      <div class="backdrop">
+      <div class="backdrop" id="modal" data-modal>
     <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button data-modal-close type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -478,8 +478,8 @@
           <button type="submit" class="button-send">Send</button>
         </form>
     </div>
-  </div> -->
-
+  </div> 
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
