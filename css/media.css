@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 768px) {
 	.container {
-		max-width: 736px;
+		max-width: 768px;
 	}
 
 	.team {
@@ -32,9 +32,11 @@
 /* --------------------Media-Desktop----------------------*/
 /* --------------------Header--------------------------- */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
 	.container {
 		max-width: 1158px;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.team-list {
