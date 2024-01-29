@@ -6,6 +6,76 @@
 		max-width: 768px;
 	}
 
+	.open-menu-btn {
+		display: none;
+	}
+
+	.logo {
+		margin-right: 120px;
+	}
+
+	.header-menu-list {
+		display: flex;
+		gap: 40px;
+	}
+
+	.header-menu-link {
+		color: #2e2f42;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		padding: 24px 0;
+		display: block;
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.header-menu-link:hover,
+	.header-menu-link:focus {
+		color: #404bbf;
+	}
+
+	.current {
+		position: relative;
+		color: #404bbf;
+	}
+
+	.current::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -1px;
+		background-color: #404bbf;
+		border-radius: 2px;
+		height: 4px;
+		width: 100%;
+	}
+
+	.header-address {
+		display: block;
+	}
+
+	.header-address-list {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.header-address-link {
+		color: #434455;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 1.17;
+		letter-spacing: 0.03em;
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	.header-address-link:hover,
+	.header-address-link:focus {
+		color: #404bbf;
+	}
+
+	/* --------------------Our Team--------------------------------- */
 	.team {
 		padding: 96px 0 96px;
 	}
@@ -22,8 +92,6 @@
 }
 /* ------------------- Main-Hero---------------------------------- */
 /* --------------------Features---------------------------------- */
-/* --------------------Our Team--------------------------------- */
-
 /* --------------------Our Portfolio--------------------------- */
 /* --------------------Footer--------------------------------- */
 /* --------------------Footer-Form--------------------------- */
@@ -35,10 +103,27 @@
 @media screen and (min-width: 1158px) {
 	.container {
 		max-width: 1158px;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding: 0 15px;
 	}
 
+	.logo {
+		margin-right: 76px;
+	}
+	.header-address-list {
+		flex-direction: row;
+		gap: 40px;
+	}
+
+	.header-address-link {
+		color: #434455;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+
+	/* --------------------Our Team--------------------------------- */
 	.team-list {
 		display: flex;
 		flex-direction: row;
@@ -52,7 +137,6 @@
 
 /* ------------------- Main-Hero---------------------------------- */
 /* --------------------Features---------------------------------- */
-/* --------------------Our Team--------------------------------- */
 /* --------------------Our Portfolio--------------------------- */
 /* --------------------Footer--------------------------------- */
 /* --------------------Footer-Form--------------------------- */

@@ -52,19 +52,10 @@ img {
 	display: block;
 }
 
-/* .container {
-	width: 100%;
-	max-width: 1158px;
-	padding: 0 15px;
-	margin: 0 auto;
-} */
-
 .container {
 	max-width: 320px;
-	padding-left: 16px;
-	padding-right: 16px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 0 16px;
+	margin: 0 auto;
 }
 
 .visually-hidden {
@@ -86,14 +77,15 @@ img {
 		0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.header-nav {
-	display: flex;
-	align-items: center;
-}
-
 .header-container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
 }
 
 .logo {
@@ -104,8 +96,9 @@ img {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	margin-right: 76px;
+	/* margin-right: 76px; */
 	display: inline-block;
+	padding: 17px 0;
 }
 
 .logo-dark {
@@ -113,20 +106,26 @@ img {
 }
 
 .header-menu-list {
-	display: flex;
+	display: none;
+	/* display: flex;
 	align-items: center;
-	gap: 40px;
+	gap: 40px; */
 }
 
-.header-menu-link {
+/* .header-menu-link {
 	color: #2e2f42;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	padding: 24px 0 24px;
+	padding: 24px 0;
 	display: block;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .header-menu-link:hover,
+.header-menu-link:focus {
+	color: #404bbf;
 }
 
 .current {
@@ -143,38 +142,42 @@ img {
 	border-radius: 2px;
 	height: 4px;
 	width: 100%;
-}
-
-.header-menu-link:hover,
-.header-menu-link:focus {
-	color: #404bbf;
-}
+} */
 
 .header-address {
+	display: none;
 	font-style: normal;
+	margin-left: auto;
 }
 
-.header-address-list {
+/* .header-address-list {
 	display: flex;
-	align-items: center;
 	gap: 40px;
 	padding: 24px 0 24px;
-}
+	align-items: center;
+} */
 
-.header-address-link {
+/* .header-address-link {
 	color: #434455;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.header-address-link:hover,
+/* .header-address-link:hover,
 .header-address-link:focus {
 	color: #404bbf;
-}
+} */
 
+.open-menu-btn {
+	padding: 0;
+	line-height: 0;
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+}
 /* ------------------------------------- */
 /* --------------- MAIN-HERO---------------- */
 
