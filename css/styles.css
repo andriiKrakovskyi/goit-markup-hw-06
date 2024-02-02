@@ -413,34 +413,48 @@ img {
 }
 
 /* ------------------------------------- */
-/* --------------- FEATURES---------------- */
+/* ---------------MOB-FEATURES---------------- */
 
 .features {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	/* padding-top: 120px;
+	padding-bottom: 120px; */
+	padding-top: 96px;
+	padding-bottom: 96px;
 }
 
 .features-list {
 	display: flex;
-	gap: 24px;
+	flex-direction: column;
+	/* gap: 24px; */
+	gap: 72px;
 }
 
 .features-item {
-	width: calc((100% - 3 * 24px) / 4);
+	/* width: calc((100% - 3 * 24px) / 4); */
 }
 
 .features-subtitle {
-	color: #2e2f42;
+	/* color: #2e2f42;
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	margin-bottom: 8px; */
+
+	color: #2e2f42;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11111;
+	letter-spacing: 0.02em;
+	text-align: center;
 	margin-bottom: 8px;
 }
+
 .features-item-text {
 	color: #434455;
 	font-size: 16px;
-	font-weight: 400;
+	/* font-weight: 400; */
+	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
@@ -454,30 +468,36 @@ img {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 8px;
+	display: none;
 }
 
 /* ------------------------------------- */
-/* ---------------OUR TEAM---------------- */
+/* --------------MOB-OUR-TEAM---------------- */
 
 .team {
 	background-color: #f4f4fd;
-	padding: 120px 0 120px;
+	/* padding: 120px 0 120px; */
+	padding-top: 96px;
+	padding-bottom: 96px;
+}
+.team-container {
+	padding: 0 28px;
 }
 
 .section-title-team {
 	color: #2e2f42;
-	text-align: center;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
+	text-align: center;
 	margin-bottom: 72px;
 }
 
 .team-list {
 	display: flex;
-	gap: 24px;
+	/* gap: 24px; */
+	gap: 72px;
 	flex-direction: column;
 }
 
@@ -494,6 +514,14 @@ img {
 	margin-bottom: 32px;
 }
 
+.item-border {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* padding: 32px 0; */
+}
+
 .subtitle {
 	color: #2e2f42;
 	text-align: center;
@@ -502,13 +530,6 @@ img {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	margin-bottom: 8px;
-}
-.item-border {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/* padding: 32px 0; */
 }
 
 .item-text {
@@ -552,36 +573,38 @@ img {
 .team-soc-icon {
 	fill: #f4f4fd;
 }
-/* ------------------------------------- */
-/* ---------------Our Portfolio---------------- */
+/* ------------------------------------------------------- */
+/* -----------------MOB-OUR-PORTFOLIO-------------------- */
 
 .portfolio {
-	padding: 120px 0 120px 0;
+	/* padding: 120px 0 120px 0; */
+	padding-top: 96px;
+	padding-bottom: 96px;
 }
 
 .section-title-portfolio {
-	margin-bottom: 72px;
 	color: #2e2f42;
-	text-align: center;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.11;
 	letter-spacing: 0.02em;
-	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 72px;
 }
 
 .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 48px 24px;
+	/* gap: 48px 24px; */
+	gap: 48px;
 }
 
 .portfolio-item {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	width: calc((100% - 24px * 2) / 3);
+	/* justify-content: center;
+	align-items: flex-start; */
+	/* width: calc((100% - 24px * 2) / 3); */
 	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
