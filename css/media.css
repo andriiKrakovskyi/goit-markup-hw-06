@@ -42,7 +42,7 @@
 		content: "";
 		position: absolute;
 		left: 0;
-		bottom: -1px;
+		bottom: -5px;
 		background-color: #404bbf;
 		border-radius: 2px;
 		height: 4px;
@@ -143,6 +143,39 @@
 		width: calc((100% - 24px) / 2);
 	}
 	/* -------------------Tablet-Footer--------------------------------- */
+	.footer-text {
+		max-width: 264px;
+	}
+	.footer-container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: start;
+		row-gap: 72px;
+		column-gap: 24px;
+		padding-left: 114px;
+		padding-right: 158px;
+	}
+
+	.footer-form {
+		flex-direction: row;
+	}
+
+	.footer-left {
+		margin-bottom: 0;
+	}
+
+	.logo-footer {
+		justify-content: start;
+	}
+
+	.social-media {
+		margin-bottom: 0;
+	}
+
+	.subscribe-title {
+		text-align: start;
+	}
+
 	/* -------------------Tablet-Footer-Form--------------------------- */
 
 	/*--------------------Tablet-Backdrop------------------------------*/
@@ -164,6 +197,10 @@
 
 	.logo {
 		margin-right: 76px;
+	}
+
+	.current::after {
+		bottom: -1px;
 	}
 
 	.header-address-list {
@@ -272,15 +309,18 @@
 		display: flex;
 		flex-direction: row;
 		align-items: baseline;
-		align-items: center;
+		flex-wrap: nowrap;
+		padding-right: 16px;
+		padding-left: 16px;
+		gap: 0;
 	}
 
 	.footer-left {
 		margin-right: 120px;
+		margin-bottom: 0;
 	}
 
 	.logo-footer {
-		margin-right: 76px;
 		display: inline-block;
 	}
 
@@ -290,6 +330,7 @@
 
 	.social-media {
 		margin-right: 80px;
+		margin-bottom: 0;
 	}
 
 	/* -------------------Desktop-Footer-Form--------------------------- */
