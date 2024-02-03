@@ -69,7 +69,7 @@ img {
 	overflow: hidden;
 }
 
-/* --------------- HEADER---------------- */
+/* --------------MOB-HEADER---------------- */
 .header {
 	border-bottom: 1px solid #e7e9fc;
 	box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
@@ -96,9 +96,8 @@ img {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	/* margin-right: 76px; */
 	display: inline-block;
-	padding: 17px 0;
+	padding: 16px 0;
 }
 
 .logo-dark {
@@ -107,25 +106,6 @@ img {
 
 .header-menu-list {
 	display: none;
-	/* display: flex;
-	align-items: center;
-	gap: 40px; */
-}
-
-/* .header-menu-link {
-	color: #2e2f42;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	padding: 24px 0;
-	display: block;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .header-menu-link:hover,
-.header-menu-link:focus {
-	color: #404bbf;
 }
 
 .current {
@@ -142,34 +122,13 @@ img {
 	border-radius: 2px;
 	height: 4px;
 	width: 100%;
-} */
+}
 
 .header-address {
 	display: none;
-	font-style: normal;
-	margin-left: auto;
 }
 
-/* .header-address-list {
-	display: flex;
-	gap: 40px;
-	padding: 24px 0 24px;
-	align-items: center;
-} */
-
-/* .header-address-link {
-	color: #434455;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-/* .header-address-link:hover,
-.header-address-link:focus {
-	color: #404bbf;
-} */
+/*------------------MOB-MENU -----------------------------*/
 
 .open-menu-btn {
 	padding: 0;
@@ -298,65 +257,8 @@ img {
 .mob-soc-icon {
 	fill: #f4f4fd;
 }
-/* ------------------------------------- */
-/* --------------- MAIN-HERO---------------- */
 
-/* .hero {
-	background-color: #2e2f42;
-	padding: 188px 0;
-	background-image: linear-gradient(
-			rgba(46, 47, 66, 0.7),
-			rgba(46, 47, 66, 0.7)
-		),
-		url(../images/img-jpg-11.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	max-width: 1440px;
-	margin: 0 auto;
-}
-
-.hero-container {
-	text-align: center;
-	align-items: center;
-}
-
-.hero-title {
-	color: #fff;
-	text-align: center;
-	font-size: 56px;
-	font-weight: 700;
-	line-height: 1.07;
-	letter-spacing: 0.02em;
-	max-width: 496px;
-	display: block;
-	margin: 0 auto;
-}
-
-.hero-order-service-btn {
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	background: #4d5ae5;
-	cursor: pointer;
-	padding: 16px 32px;
-	border: none;
-	border-radius: 4px;
-	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-	display: block;
-	min-width: 169px;
-	margin: 48px auto 0;
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-order-service-btn:hover,
-.hero-order-service-btn:focus {
-	background: #404bbf;
-} */
-
-/* ------------------------------------- */
+/* --------------------------------------------- */
 /* --------------- MOB-MAIN-HERO---------------- */
 
 .hero {
@@ -416,8 +318,6 @@ img {
 /* ---------------MOB-FEATURES---------------- */
 
 .features {
-	/* padding-top: 120px;
-	padding-bottom: 120px; */
 	padding-top: 96px;
 	padding-bottom: 96px;
 }
@@ -425,22 +325,10 @@ img {
 .features-list {
 	display: flex;
 	flex-direction: column;
-	/* gap: 24px; */
 	gap: 72px;
 }
 
-.features-item {
-	/* width: calc((100% - 3 * 24px) / 4); */
-}
-
 .features-subtitle {
-	/* color: #2e2f42;
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 1.2;
-	letter-spacing: 0.02em;
-	margin-bottom: 8px; */
-
 	color: #2e2f42;
 	font-weight: 700;
 	font-size: 36px;
@@ -453,21 +341,12 @@ img {
 .features-item-text {
 	color: #434455;
 	font-size: 16px;
-	/* font-weight: 400; */
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 }
 
 .features-icon {
-	border-radius: 4px;
-	border: 1px solid #8e8f99;
-	background: #f4f4fd;
-	display: flex;
-	height: 112px;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 8px;
 	display: none;
 }
 
@@ -476,10 +355,9 @@ img {
 
 .team {
 	background-color: #f4f4fd;
-	/* padding: 120px 0 120px; */
-	padding-top: 96px;
-	padding-bottom: 96px;
+	padding: 96px 0 96px;
 }
+
 .team-container {
 	padding: 0 28px;
 }
@@ -496,7 +374,6 @@ img {
 
 .team-list {
 	display: flex;
-	/* gap: 24px; */
 	gap: 72px;
 	flex-direction: column;
 }
@@ -504,13 +381,11 @@ img {
 .team-item {
 	background-color: #ffffff;
 	border-radius: 0px 0px 4px 4px;
-	/* width: calc((100% - 3 * 24px) / 4); */
 	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 		0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-img {
-	margin: 0 auto;
 	margin-bottom: 32px;
 }
 
@@ -519,7 +394,6 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* padding: 32px 0; */
 }
 
 .subtitle {
@@ -594,17 +468,14 @@ img {
 
 .portfolio-list {
 	display: flex;
-	flex-wrap: wrap;
-	/* gap: 48px 24px; */
+	flex-direction: column;
 	gap: 48px;
 }
 
 .portfolio-item {
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center;
-	align-items: flex-start; */
-	/* width: calc((100% - 24px * 2) / 3); */
+	align-items: flex-start;
 	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -811,7 +682,7 @@ img {
 	background-color: #4d5ae5;
 	border: none;
 	border-radius: 4px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 .subscribe-icon {
@@ -842,25 +713,18 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(1);
-	/* width: 408px; */
 	width: 288px;
-	/* min-height: 584px; */
 	min-height: 623px;
 	background-color: #fcfcfc;
 	border-radius: 4px;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	/* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-		0px 2px 1px rgba(0, 0, 0, 0.2); */
-	/* padding: 72px 24px 24px 24px; */
-	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
-		0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+		0 2px 1px 0 rgba(0, 0, 0, 0.2);
 	padding: 72px 16px 24px 16px;
 }
 
 .modal-close-btn {
 	position: absolute;
-	/* top: 24px;
-	right: 24px; */
 	top: 24px;
 	right: 24px;
 	width: 24px;
@@ -931,7 +795,6 @@ img {
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	background-color: transparent;
 	outline: transparent;
-	/* padding-left: 38px; */
 	padding-left: 34px;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1034,5 +897,5 @@ img {
 	min-width: 169px;
 	border: none;
 	display: block;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
