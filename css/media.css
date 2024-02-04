@@ -177,6 +177,13 @@
 	}
 
 	/* -------------------Tablet-Footer-Form--------------------------- */
+	.footer-form {
+		gap: 24px;
+	}
+
+	.subscribe-input {
+		width: 264px;
+	}
 
 	/*--------------------Tablet-Backdrop------------------------------*/
 
