@@ -50,6 +50,8 @@ address {
 
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .container {
@@ -253,12 +255,24 @@ img {
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)
 		),
-		url(../images/img-jpg-11.jpg);
+		url(../images/img-jpg-bg-mob.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	max-width: 320px;
 	margin: 0 auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+	(min-resolution: 2dppx),
+	(min-resolution: 192dpi) {
+	.hero {
+		background-image: linear-gradient(
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)
+			),
+			url(../images/img-jpg-bg-mob-2x.jpg);
+	}
 }
 
 .hero-container {
@@ -471,7 +485,6 @@ img {
 .portfolio-img {
 	margin: 0 auto;
 	display: block;
-	width: 100%;
 	object-fit: cover;
 }
 
